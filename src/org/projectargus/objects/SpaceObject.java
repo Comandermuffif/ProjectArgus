@@ -199,7 +199,7 @@ public class SpaceObject
 		screen_w = dims.getWidth();
 		screen_h = dims.getHeight();
 		
-		//New on screen check : Take it Mullens. Love you Vinny <3
+		//New on screen check : Take it Mullens. Love you Vinny <3 - TEHE
 		if(screen_x + screen_w < 0 || screen_x > gc.getWidth() || screen_y + screen_h < 0 || screen_y  > gc.getHeight()){
 			isOnScreen = false;
 		}
