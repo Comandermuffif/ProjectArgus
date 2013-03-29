@@ -1,0 +1,41 @@
+Changelog
+*****************************************************************************
+
+Date: 1/13/13 - 1/17/13
+-------------------------------------------------------------------
+Created a button component with click listeners
+Replaced all temp. buttons with this component.
+Added title to main page just cause it looks cooler than nothing
+Created a resource transfer menu.
+Updated the resourceHolder methods to work with integer types (people,cash,parts,etc)
+
+
+
+
+Date: 1/9/13 - 1/12/13
+-------------------------------------------------------------------
+Each part now sets its own image
+The ShipMenu now has a parts button and state which will allow for equipping parts eventually
+Added ship image and parts boxes on ship to correspond to each part(used for equiping or info)
+Added getter methods for name and description of ShipParts
+Added a getter for PartSlot "holder" variable
+Removed separate "holder" variable from ShipPart. It can get it from its parent slot.(Redundant and will only cause trouble)
+You can now add/remove parts to ships from inventory.(Still working on it though)
+Recreated the entire add/remove parts as separate components for use in multiple states(more dynamic and clean!)
+
+
+
+Date: 1/7/13 - 1/8/13
+-------------------------------------------------------------------
+Reduced size of sun/solarsystem temporarily(Makes it easier to click everything)
+Created more fleets
+Fleets are assigned factions
+Fleets can now be selected(left click) and then moved(right click)
+Planets can now be selected(left click) and will show in the menu(Click space a few times)
+When fleet is selected, it will be shown in the fleet menu(Click space a few times)
+Added planet info to the planet menu
+Added fleets and docked ships name list on planetmenu
+Added temporary buttons to get to the store and scavange/resource states in the planet menu
+Data has a new method for getting a list of fleets docked on a given spaceobject(getAllFleetsDockedOnObject)
+Added a get method for planets
+Added a dockedShips variable for planets. This is useful for ships that aren't in a fleet.

@@ -1,0 +1,40 @@
+Todo
+********************************************************
+
+Add to resourceTransfer menu
+-Select ships to swap resources with
+-Make the ui look cleaner and more dynamic
+--Clean up the string format
+--Add boxes and set positions for the values
+
+
+Planets
+-Give more attributes
+--Inhabitable
+---dangerous gases?
+--Is There life?
+---Is wildlife dangerous
+--Resources
+--Whats on the planet
+
+Planet Menu
+-Add all info to menu
+-Add current fleets in harbor
+-Add store interface?
+-Add option to go scouting for resources
+
+Ship/Fleets
+!!!!-How to distribute resources around ships in a fleet
+!!!!-Adding/Removing ship parts
+-How to transfer parts and resources between ships
+-Can a ship be out of a fleet and have resources/parts
+-Add Captains
+
+
+Fight
+-Add End screen that allows you to take incapacitated ships and their resources and parts of destroyed ships.
+
+Game
+//-Add more fleets. Allow selecting them.(and getting to menu?)
+
+
